@@ -4,7 +4,7 @@ function getDBConfig() {
     return {
         username: process.env.MYSQLUSERNAME,
         password: process.env.MYSQLUSERPASSWORD,
-        database: "40",
+        database: "40_db",
         host: process.env.SERVERIPNO,
         dialect: "mysql"
     }

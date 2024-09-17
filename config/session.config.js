@@ -8,7 +8,7 @@ const options = {
   port: process.env.MYSQLPORT,
   user: process.env.MYSQLUSERNAME,
   password: process.env.MYSQLUSERPASSWORD,
-  database: '40'
+  database: '40_db'
 }
 
 const sessionStore = new MySQLStoreSession(options);
